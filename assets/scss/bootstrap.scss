@@ -2,6 +2,10 @@
 @import "bootstrap-components/variables";
 @import "bootstrap-components/mixins";
 
+// Your custom variables
+@import "variables";
+
+// Override Bootstrap Defaults here (search for component to modify it)
 @import "overrides";
 
 // Reset
@@ -36,7 +40,7 @@
 @import "bootstrap-components/progress-bars";
 @import "bootstrap-components/media";
 @import "bootstrap-components/list-group";
-// @import "bootstrap-components/panels";
+@import "bootstrap-components/panels";
 @import "bootstrap-components/wells";
 @import "bootstrap-components/close";
 
@@ -50,4 +54,5 @@
 @import "bootstrap-components/utilities";
 @import "bootstrap-components/responsive-utilities";
 
+// Your App styles
 @import "app";
